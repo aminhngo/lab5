@@ -1,0 +1,59 @@
+td, th {
+  border: 1px solid #663399;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.img-row{
+  pointer-events: none;
+}
+
+.facts {
+  color: darkorange;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: darkorange;
+  font-size: 50px;
+}
+
+body {
+  background-image: url(../images/milky_way.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#planets {
+  margin: auto;
+}
+
+#e, #mo, #ma, #s {
+  font-size: 32px;
+  color: #663322;
+}
+ 
+#earth, #moon, #mars {
+  width: 250px;
+  height: 250px;
+}
+
+#saturn {
+  width: 375px;
+  height: 250px;
+}
+
+td:hover {
+  background-color: rgba(169, 169, 169, 0.4);
+  font-size: 20px;
+  font-weight: bold;
+}
